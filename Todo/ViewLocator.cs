@@ -4,7 +4,6 @@ using Avalonia.Controls;
 using Avalonia.Controls.Templates;
 using Todo.ViewModels;
 
-
 namespace Todo
 {
     public class ViewLocator : IDataTemplate
