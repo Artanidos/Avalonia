@@ -1,20 +1,7 @@
-﻿using Avalonia.Controls;
-using Avalonia.Input;
-using Microsoft.CodeAnalysis.Text;
-using CommunityToolkit.Mvvm.ComponentModel;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Todo.Models;
-using CommunityToolkit.Mvvm.Input;
-using System.Reflection.Metadata;
-
+﻿
 namespace Todo.ViewModels
 {
-    class AddItemViewModel : ObservableObject
+    class AddItemViewModel : ViewModelBase
     {
         // description should be initialized otherwise the binding will not function
         // IsEnabled="{Binding #description.Text.Length}"

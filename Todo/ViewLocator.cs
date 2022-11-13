@@ -3,7 +3,6 @@ using System.ComponentModel;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
 using Todo.ViewModels;
-using CommunityToolkit.Mvvm.ComponentModel;
 
 
 namespace Todo
@@ -26,7 +25,7 @@ namespace Todo
         public bool Match(object data)
         {
 
-            return data is ObservableObject;
+            return data is ViewModelBase;
         }
     }
 }

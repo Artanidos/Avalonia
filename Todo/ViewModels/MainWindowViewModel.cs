@@ -6,7 +6,7 @@ using Todo.Services;
 
 namespace Todo.ViewModels
 {
-    class MainWindowViewModel : ObservableObject
+    class MainWindowViewModel : ViewModelBase
     {
         ObservableObject content;
 
